@@ -7,6 +7,7 @@ from linebot.models import TextSendMessage
 from binance_process import get_sybol_price
 load_dotenv()
 line_bot_api = LineBotApi(os.environ.get("CHANNEL_ACCESS_TOKEN"))
+print('init')
 while True:
     now=datetime.now()
     if now.hour == 9 or now.hour == 21:

@@ -1,2 +1,2 @@
 web: gunicorn app:app –preload
-python auto_send.py
+clock: python auto_send.py
